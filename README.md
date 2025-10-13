@@ -7,7 +7,7 @@
 
 ### 👨‍💻 Resumo profissional
 
-Sou **Gustavo Hudson**, tenho **21 anos**, atuo como **Analista de Tecnologia da Informação** e **Técnico na GHtech**.  
+Sou **Gustavo Hudson**, tenho **21 anos**, atuo como **Analista de TI** e como **Técnico de hardware na GHtech**.  
 Desenvolvo soluções de automação, integração e infraestrutura, com ênfase em segurança da informação e aplicação prática de IoT em ambientes corporativos.  
 Minha atuação combina diagnóstico de hardware, administração de sistemas Linux, desenvolvimento de integrações e avaliação de riscos de segurança.
 
