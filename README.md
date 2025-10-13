@@ -7,11 +7,6 @@
 
 <h1 align="center">🧠 Gustavo Hudson</h1>
 <h3 align="center">Analista de T.I. e Técnico na GHtech • Cibersegurança | IoT | Automação | Desenvolvimento</h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Análise+de+Sistemas+e+Infraestrutura;Cibersegurança+e+Pentesting;Automação+de+Processos+Bitrix+%2B+IoT;Desenvolvimento+em+Node%2C+Python+e+Java" alt="Typing SVG" />
-</p>
-
 ---
 
 ### 👨‍💻 Sobre mim
