@@ -6,12 +6,12 @@
 </div>
 
 <h1 align="center">🧠 Gustavo Hudson</h1>
-<h3 align="center">Analista de T.I. e Técnico na GHtech • Cibersegurança | IoT | Automação | Desenvolvimento</h3>
+<h3 align="center">Analista de T.I. e Dev Junior • Cibersegurança | IoT | Automação | Desenvolvimento</h3>
 ---
 
 ### 👨‍💻 Sobre mim
 
-Sou **Gustavo Hudson**, **21 anos**, **Analista de Tecnologia da Informação e Técnico na GHtech**.  
+Sou **Gustavo Hudson**, **21 anos**, **Analista de Tecnologia da Informação, ténico de hardware e dev**.  
 Trabalho com **manutenção de computadores**, **infraestrutura**, **automação** e **desenvolvimento de soluções inteligentes** para ambientes corporativos.  
 
 Meu foco atual é aprofundar meus conhecimentos em **Cibersegurança**, **Sistemas Linux**, **Programação para IoT** e **Integração de Plataformas**.  
@@ -41,8 +41,10 @@ Tenho uma visão analítica, orientada à eficiência, confiabilidade e seguran�
 
 | Projeto | Descrição |
 |----------|------------|
-| 🔹 **Integração Bitrix + Intelbras** | Solução para automação de atendimento e monitoramento de câmeras em tempo real. |
+| 🔹 **MAPService** | Solução inteligente e prática para portarias de condôminios. |
 | 🔹 **Binah** | Database inteligente voltada para produtividade, integração e eficiência operacional. |
+| 🔹 **Site de vendas** | Solução para um webcomercio para anunciar, divulgar e gerir produtos. |
+| 🔹 **Get_______** | Solução inteligente para divulgação de serviços e necessidades. |
 
 ---
 
@@ -73,4 +75,4 @@ Tenho uma visão analítica, orientada à eficiência, confiabilidade e seguran�
 <div align="center">
   <img src="https://i.ibb.co/4fyshkK/line-blue.gif" width="60%" alt="Divider">
 </div>
-<p align="center">© 2025 • Gustavo Hudson</p>
+<p align="center">© 2026 • Gustavo Hudson</p>
