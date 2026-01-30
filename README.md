@@ -11,7 +11,7 @@
 
 ### 👨‍💻 Sobre mim
 
-Sou **Gustavo Hudson**, **21 anos**, **Analista de Tecnologia da Informação, ténico de hardware e dev**.  
+Sou **Gustavo Hudson**, **21 anos**, **Analista de Tecnologia da Informação, técnico de hardware e dev**.  
 Trabalho com **manutenção de computadores**, **infraestrutura**, **automação** e **desenvolvimento de soluções inteligentes** para ambientes corporativos.  
 
 Meu foco atual é aprofundar meus conhecimentos em **Cibersegurança**, **Sistemas Linux**, **Programação para IoT** e **Integração de Plataformas**.  
