@@ -1,78 +1,99 @@
-<!-- Cybersecurity Pro README - Gustavo Hudson -->
 
-<!-- Fundo animado com tema de código -->
 <div align="center">
   <img src="https://i.ibb.co/FKdZ1KT/cyber-bg.gif" width="100%" alt="Cyber Background" />
 </div>
 
 <h1 align="center">🧠 Gustavo Hudson</h1>
-<h3 align="center">Analista de T.I. e Dev Junior • Cibersegurança | IoT | Automação | Desenvolvimento</h3>
----
+<h3 align="center">
+  Software Developer & IT Analyst • AI Development | Automation | Cybersecurity | IoT
+</h3>
 
-### 👨‍💻 Sobre mim
+<p align="center">
+  <strong>2+ years of experience</strong> building scalable, intelligent, and secure systems
+</p>
 
-Sou **Gustavo Hudson**, **21 anos**, **Analista de Tecnologia da Informação, técnico de hardware e dev**.  
-Trabalho com **manutenção de computadores**, **infraestrutura**, **automação** e **desenvolvimento de soluções inteligentes** para ambientes corporativos.  
 
-Meu foco atual é aprofundar meus conhecimentos em **Cibersegurança**, **Sistemas Linux**, **Programação para IoT** e **Integração de Plataformas**.  
-Tenho uma visão analítica, orientada à eficiência, confiabilidade e segurança — unindo hardware, software e automação de forma estratégica.
+### 👨‍💻 About Me
 
----
+I'm **Gustavo Hudson**, a **Software Developer and IT Analyst** focused on building **efficient, scalable, and intelligent solutions**.
 
-### 🧰 Tecnologias e Ferramentas
+My main expertise is in **software development, automation, and system integration**, with cybersecurity as a strong secondary focus to ensure everything I build is **secure by design**.
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=linux,bash,python,java,js,nodejs,html,css,git,github,powershell,arduino,raspberrypi,vscode" />
-</div>
+Currently, I am focused on:
 
----
+- 💻 Software Development (Backend & Integrations)  
+- 🤖 AI Development & Intelligent Systems  
+- ⚙️ Automation & Process Optimization  
+- 🔐 Cybersecurity & System Hardening  
 
-### 🛰️ Áreas de Atuação e Interesse
+I combine **development + infrastructure + security** to deliver complete and reliable systems.
 
-- **Cibersegurança e Pentesting** — análise de vulnerabilidades, sniffing, spoofing e segurança ofensiva controlada.  
-- **Infraestrutura Linux** — automação, configuração e hardening de sistemas.  
-- **Desenvolvimento e Integração** — criação de soluções com Node.js, APIs e microcontroladores.  
-- **Automação e IoT** — aplicações com ESP32, ESP8266 e Arduino.  
-- **Hardware e Redes** — diagnóstico, otimização e manutenção de equipamentos corporativos.
 
----
-
-### 🚀 Projetos em Desenvolvimento
-
-| Projeto | Descrição |
-|----------|------------|
-| 🔹 **MAPService** | Solução inteligente e prática para portarias de condôminios. |
-| 🔹 **Binah** | Database inteligente voltada para produtividade, integração e eficiência operacional. |
-| 🔹 **Site de vendas** | Solução para um webcomercio para anunciar, divulgar e gerir produtos. |
-| 🔹 **Get_______** | Solução inteligente para divulgação de serviços e necessidades. |
-
----
-
-### 🎯 Objetivos Futuros
-
-- Consolidar carreira em **Cibersegurança** — com foco em defesa, resposta a incidentes e auditoria técnica.  
-- Atuar como **Desenvolvedor Full Stack** especializado em automação e integração corporativa.  
-- Criar projetos que unam **hardware, software e segurança** em soluções de alto desempenho.  
-- Contribuir para o avanço de sistemas **seguros, escaláveis e inteligentes**.
-
----
-
-### 📫 Contato
+### 🧰 Tech Stack & Tools
 
 <div align="center">
-  <a href="mailto:gustavohuds@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://linkedin.com/in/gustavo-hsn"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <img src="https://skillicons.dev/icons?i=python,nodejs,js,java,linux,bash,git,github,html,css,powershell,arduino,raspberrypi,vscode" />
 </div>
 
----
 
-### ⚡ Filosofia Profissional
-> “Segurança e eficiência não são metas — são a base de todo sistema confiável.”
+### 🚀 Core Expertise
 
----
+- **Software Development & Backend Engineering**  
+  Building APIs, services, and scalable applications using Node.js, Python, and Java.
 
-<!-- Rodapé com efeito sutil -->
+- **AI Development & Automation**  
+  Intelligent systems focused on productivity, decision-making, and workflow automation.
+
+- **System Integration**  
+  Connecting platforms, APIs, and services into cohesive ecosystems.
+
+- **Cybersecurity (Secondary Focus)**  
+  Secure development practices, vulnerability analysis, and system protection.
+
+- **Linux & Infrastructure**  
+  Automation, configuration, and system reliability.
+
+- **IoT & Embedded Systems**  
+  ESP32, ESP8266, Arduino-based solutions.
+
+
+### 🚀 Projects in Progress
+
+| Project | Description |
+|--------|------------|
+| 🔹 **MAPService** | Smart solution for condominium management and access control. |
+| 🔹 **Binah** | Intelligent database focused on productivity and operational efficiency. |
+| 🔹 **E-commerce Platform** | Full web solution for managing and scaling online sales. |
+| 🔹 **Get______** | Platform for connecting service providers with demand. |
+
+
+### 🎯 Career Goals
+
+- Grow as a **Software Engineer** focused on scalable and high-performance systems.  
+- Specialize in **AI-powered applications and automation**.  
+- Apply **cybersecurity principles** to all development processes.  
+- Build solutions that integrate **AI, backend systems, and real-world applications**.  
+
+
+### 📫 Contact
+
+<div align="center">
+  <a href="mailto:gustavohuds@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+  <a href="https://linkedin.com/in/gustavohsn">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+</div>
+
+
+### ⚡ Professional Philosophy
+
+> “Great systems are built with performance in mind, and secured by design.”
+
+
 <div align="center">
   <img src="https://i.ibb.co/4fyshkK/line-blue.gif" width="60%" alt="Divider">
 </div>
+
 <p align="center">© 2026 • Gustavo Hudson</p>
