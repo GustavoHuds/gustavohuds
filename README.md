@@ -57,7 +57,7 @@ I combine **development + infrastructure + security** to deliver complete and re
   ESP32, ESP8266, Arduino-based solutions.
 
 
-### 🚀 Projects in Progress
+### 🚀 Projects history and in progress
 
 | Project | Description |
 |--------|------------|
@@ -65,7 +65,7 @@ I combine **development + infrastructure + security** to deliver complete and re
 | 🔹 **Binah** | Intelligent database focused on productivity and operational efficiency. |
 | 🔹 **E-commerce Platform** | Full web solution for managing and scaling online sales. |
 | 🔹 **Get______** | Platform for connecting service providers with demand. |
-
+| 🔹 **Work Monitor** | A Jira-based tool for managing tasks and monitoring project progress. |
 
 ### 🎯 Career Goals
 
