@@ -3,7 +3,7 @@
   <img src="https://i.ibb.co/FKdZ1KT/cyber-bg.gif" width="100%" alt="Cyber Background" />
 </div>
 
-<h1 align="center">🧠 Gustavo Hudson</h1>
+<h1 align="center"> Gustavo Hudson</h1>
 <h3 align="center">
   Software Developer & IT Analyst • AI Development | Automation | Cybersecurity | IoT
 </h3>
