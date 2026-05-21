@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center">
-  <strong>2+ years of experience</strong> building scalable, intelligent, and secure systems
+  <strong>3+ years of experience</strong> building scalable, intelligent, and secure systems
 </p>
 
 
