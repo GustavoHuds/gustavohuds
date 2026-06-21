@@ -62,8 +62,10 @@ I combine **development + infrastructure + security** to deliver complete and re
 | Project | Description |
 |--------|------------|
 | 🔹 **MAPService** | Smart solution for condominium management and access control. |
-| 🔹 **Binah** | Intelligent database focused on productivity and operational efficiency. |
-| 🔹 **E-commerce Platform** | Full web solution for managing and scaling online sales. |
+| 🔹 **Ninja Cash** | Smart solution for loans. |
+| 🔹 **Txintxa Do Gigi** | An complete influencer platform to get refferal clicks using raffles. |
+| 🔹 **Binah** | Intelligent database focused on productivity and operational efficiency (Lavanderia 60Minutos). |
+| 🔹 **E-commerce Platforms** | Full web solutions for managing and scaling online sales. |
 | 🔹 **Get______** | Platform for connecting service providers with demand. |
 | 🔹 **Work Monitor** | A Jira-based tool for managing tasks and monitoring project progress. |
 
