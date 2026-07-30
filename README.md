@@ -1,101 +1,174 @@
-
 <div align="center">
-  <img src="https://i.ibb.co/FKdZ1KT/cyber-bg.gif" width="100%" alt="Cyber Background" />
-</div>
 
-<h1 align="center"> Gustavo Hudson</h1>
-<h3 align="center">
-  Software Developer & IT Analyst • AI Development | Automation | Cybersecurity | IoT
-</h3>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0F172A,100:2563EB&text=Gustavo%20Hudson&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Software%20Engineer%20•%20AI%20Engineering%20•%20Full-Stack%20Developer&descAlignY=60"/>
 
-<p align="center">
-  <strong>3+ years of experience</strong> building scalable, intelligent, and secure systems
+# Gustavo Hudson
+
+### Software Engineer • Full-Stack Developer • AI Engineering • Automation • Product Development
+
+Building intelligent software, AI-powered products, developer tools, and scalable enterprise systems.
+
+<p>
+
+<a href="mailto:gustavohuds@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://linkedin.com/in/gustavohsn">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<img src="https://komarev.com/ghpvc/?username=Gustavohuds&style=for-the-badge&color=2563EB" />
+
 </p>
 
-
-### 👨‍💻 About Me
-
-I'm **Gustavo Hudson**, a **Software Developer and IT Analyst** focused on building **efficient, scalable, and intelligent solutions**.
-
-My main expertise is in **software development, automation, and system integration**, with cybersecurity as a strong secondary focus to ensure everything I build is **secure by design**.
-
-Currently, I am focused on:
-
-- 💻 Software Development (Backend & Integrations)  
-- 🤖 AI Development & Intelligent Systems  
-- ⚙️ Automation & Process Optimization  
-- 🔐 Cybersecurity & System Hardening  
-
-I combine **development + infrastructure + security** to deliver complete and reliable systems.
-
-
-### 🧰 Tech Stack & Tools
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,nodejs,js,java,linux,bash,git,github,html,css,powershell,arduino,raspberrypi,vscode" />
 </div>
 
+---
 
-### 🚀 Core Expertise
+# 👨‍💻 About Me
 
-- **Software Development & Backend Engineering**  
-  Building APIs, services, and scalable applications using Node.js, Python, and Java.
+I'm a **Software Engineer** passionate about building software that solves real business problems.
 
-- **AI Development & Automation**  
-  Intelligent systems focused on productivity, decision-making, and workflow automation.
+My work combines **Software Engineering**, **Artificial Intelligence**, **Automation**, **Enterprise Systems**, and **Developer Experience** to create scalable, maintainable, and intelligent products.
 
-- **System Integration**  
-  Connecting platforms, APIs, and services into cohesive ecosystems.
+I enjoy designing complete solutions—from backend architecture and APIs to AI-powered workflows and modern user experiences.
 
-- **Cybersecurity (Secondary Focus)**  
-  Secure development practices, vulnerability analysis, and system protection.
+---
 
-- **Linux & Infrastructure**  
-  Automation, configuration, and system reliability.
+# 🚀 Current Focus
 
-- **IoT & Embedded Systems**  
-  ESP32, ESP8266, Arduino-based solutions.
+- 💻 Full-Stack Software Engineering
+- 🤖 AI Engineering & LLM Applications
+- ⚙️ Workflow Automation
+- 🏗️ Software Architecture
+- 🔗 Enterprise Integrations
+- 📊 Developer Productivity
+- 🔐 Secure-by-Design Development
 
+---
 
-### 🚀 Projects history and in progress
-
-| Project | Description |
-|--------|------------|
-| 🔹 **MAPService** | Smart solution for condominium management and access control. |
-| 🔹 **Ninja Cash** | Smart solution for loans. |
-| 🔹 **Txintxa Do Gigi** | An complete influencer platform to get refferal clicks using raffles. |
-| 🔹 **Binah** | Intelligent database focused on productivity and operational efficiency (Lavanderia 60Minutos). |
-| 🔹 **E-commerce Platforms** | Full web solutions for managing and scaling online sales. |
-| 🔹 **Get______** | Platform for connecting service providers with demand. |
-| 🔹 **Work Monitor** | A Jira-based tool for managing tasks and monitoring project progress. |
-
-### 🎯 Career Goals
-
-- Grow as a **Software Engineer** focused on scalable and high-performance systems.  
-- Specialize in **AI-powered applications and automation**.  
-- Apply **cybersecurity principles** to all development processes.  
-- Build solutions that integrate **AI, backend systems, and real-world applications**.  
-
-
-### 📫 Contact
+# 🛠 Tech Stack
 
 <div align="center">
-  <a href="mailto:gustavohuds@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
-  <a href="https://linkedin.com/in/gustavohsn">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
+
+### Languages
+
+<img src="https://skillicons.dev/icons?i=typescript,javascript,python,java"/>
+
+### Frontend
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,html,css"/>
+
+### Backend
+
+<img src="https://skillicons.dev/icons?i=nodejs,fastapi"/>
+
+### Databases
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite"/>
+
+### DevOps & Infrastructure
+
+<img src="https://skillicons.dev/icons?i=docker,linux,bash,git,github"/>
+
+### Tools
+
+<img src="https://skillicons.dev/icons?i=vscode,arduino,raspberrypi"/>
+
 </div>
 
+---
 
-### ⚡ Professional Philosophy
+# 🚀 Featured Projects
 
-> “Great systems are built with performance in mind, and secured by design.”
+| Project | Status | Description |
+|----------|:------:|-------------|
+| 🚀 **BELPonto** | 🟢 Production | Enterprise workforce management platform featuring attendance tracking, HR workflows, digital signatures, reports, analytics, and AI-assisted management. |
+| 🚀 **Cockpit** | 🚧 Active | Local-first AI software development cockpit that autonomously analyzes Git repositories, tracks engineering progress, forecasts delivery, and provides executive dashboards. |
+| 🧠 **BINAH** | 🟢 Production | AI-powered operational knowledge platform that centralizes documentation, troubleshooting, procedures, and intelligent search. |
+| 💰 **Ninja Cash** | 🚧 Active | Modern digital lending platform focused on workflow automation, financial operations, and customer experience. |
+| 🎁 **Txintxa do Gigi** | 🚧 Active | Referral marketing and raffle platform featuring payment validation, analytics, campaign management, and influencer engagement. |
+| 🛒 **Enterprise E-Commerce** | 🟢 Delivered | Complete commerce solutions integrating payments, logistics, ERP systems, inventory management, and scalable administration panels. |
+| 🤖 **AI & Automation Tools** | 🚧 Ongoing | AI agents, developer tools, intelligent monitoring, and workflow automation solutions. |
 
+---
+
+# 💼 Expertise
+
+- Full-Stack Development
+- Backend Engineering
+- REST APIs
+- AI Applications
+- LLM Integrations
+- Software Architecture
+- Enterprise Systems
+- Automation
+- System Integration
+- Developer Tools
+- Linux Infrastructure
+- Cybersecurity by Design
+
+---
+
+# 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://i.ibb.co/4fyshkK/line-blue.gif" width="60%" alt="Divider">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Gustavohuds&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gustavohuds&layout=compact&theme=tokyonight&hide_border=true"/>
+
 </div>
 
-<p align="center">© 2026 • Gustavo Hudson</p>
+<div align="center">
+
+<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=Gustavohuds&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+# 🎯 Areas of Interest
+
+- Artificial Intelligence
+- Software Architecture
+- Product Engineering
+- Developer Experience (DX)
+- Cloud Infrastructure
+- Enterprise Platforms
+- Automation
+- Cybersecurity
+- Business Intelligence
+
+---
+
+# 📫 Connect With Me
+
+<div align="center">
+
+<a href="mailto:gustavohuds@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://linkedin.com/in/gustavohsn">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+# ⚡ Philosophy
+
+> **"Great software is built by combining engineering excellence, intelligent automation, and relentless attention to user experience."**
+
+---
+
+<div align="center">
+
+### 🚀 Always building. Always learning. Always improving.
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&color=0:0F172A,100:2563EB"/>
+
+</div>
