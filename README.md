@@ -2,9 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0F172A,100:2563EB&text=Gustavo%20Hudson&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Software%20Engineer%20•%20AI%20Engineering%20•%20Full-Stack%20Developer&descAlignY=60"/>
 
-# Gustavo Hudson
 
-### Software Engineer • Full-Stack Developer • AI Engineering • Automation • Product Development
 
 Building intelligent software, AI-powered products, developer tools, and scalable enterprise systems.
 
