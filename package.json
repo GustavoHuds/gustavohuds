@@ -1,0 +1,16 @@
+{
+  "name": "gustavohuds-profile",
+  "private": true,
+  "type": "module",
+  "description": "RYUMON — build pipeline for the GitHub profile README art",
+  "scripts": {
+    "fonts:fetch": "node build/fetch-fonts.mjs",
+    "build": "node build/build.mjs",
+    "validate": "node build/validate.mjs",
+    "preview": "python build/preview.py"
+  },
+  "devDependencies": {
+    "simple-icons": "^16.36.0",
+    "svgo": "^4.1.0"
+  }
+}

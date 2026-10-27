@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="40" viewBox="0 0 1200 40" role="img" aria-labelledby="t d"><title id="t">Section divider</title><desc id="d">A thin tide line with three seigaiha wave scales in the center.</desc><defs><style>.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:ry-draw var(--d,1.6s) cubic-bezier(.65,0,.35,1) var(--t,0s) forwards}
+.reveal{opacity:0;animation:ry-in var(--d,.8s) cubic-bezier(.65,0,.35,1) var(--t,0s) forwards}
+.rise{opacity:0;animation:ry-rise var(--d,1.2s) cubic-bezier(.65,0,.35,1) var(--t,0s) forwards}
+.pop{opacity:0;transform-box:fill-box;transform-origin:var(--o,center);animation:ry-pop var(--d,.45s) cubic-bezier(.2,1.4,.4,1) var(--t,0s) forwards}
+.wipe{clip-path:inset(0 100% 0 0);animation:ry-wipe var(--d,.9s) cubic-bezier(.65,0,.35,1) var(--t,0s) forwards}
+.stamp{opacity:0;transform-box:fill-box;transform-origin:center;animation:ry-stamp .38s cubic-bezier(.2,1.4,.4,1) var(--t,0s) forwards}
+@keyframes ry-draw{to{stroke-dashoffset:0}}
+@keyframes ry-in{to{opacity:1}}
+@keyframes ry-rise{from{opacity:0;transform:translateY(var(--dy,40px))}to{opacity:1;transform:none}}
+@keyframes ry-pop{from{opacity:0;transform:scale(.2)}to{opacity:1;transform:none}}
+@keyframes ry-wipe{to{clip-path:inset(0 0 0 0)}}
+@keyframes ry-stamp{0%{opacity:0;transform:scale(1.35) rotate(-4deg)}70%{opacity:1}100%{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  .draw{stroke-dashoffset:0!important}
+  .reveal,.rise,.pop,.stamp{opacity:1!important;transform:none!important}
+  .wipe{clip-path:none!important}
+}</style></defs><g fill="none" stroke="#9DB7E8" stroke-linecap="round"><path class="draw" pathLength="1" style="--t:0s;--d:1.4s" d="M552 26H40" stroke-opacity=".45" stroke-width="1.2"/><path class="draw" pathLength="1" style="--t:0s;--d:1.4s" d="M648 26h512" stroke-opacity=".45" stroke-width="1.2"/><g class="reveal" style="--t:0.6s;--d:0.8s" stroke-width="1.6"><path d="M556 26a18 18 0 0 1 36 0"/><path d="M562.1 26a11.9 11.9 0 0 1 23.8 0"/><path d="M568 26a6 6 0 0 1 12 0"/><path d="M608 26a18 18 0 0 1 36 0"/><path d="M614.1 26a11.9 11.9 0 0 1 23.8 0"/><path d="M620 26a6 6 0 0 1 12 0"/><path d="M578 26a22 22 0 0 1 44 0"/><path d="M585.5 26a14.5 14.5 0 0 1 29 0"/><path d="M592.7 26a7.3 7.3 0 0 1 14.6 0"/></g></g><circle class="pop" style="--t:1.2s;--d:0.4s" cx="600" cy="12" r="2.6" fill="#D7263D"/></svg>

@@ -1,86 +1,80 @@
+<!--
+  Five a.m. offshore —
+  the pager sleeps, the swell builds.
+  All green. I paddle.
+
+  If you're reading the raw source, we'll get along. → gustavohuds@gmail.com
+  (Every image on this page is hand-built SVG. Source: /build)
+-->
+
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0F172A,100:2563EB&text=Gustavo%20Hudson&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=CTO%20•%20Software%20Engineer%20•%20AI%20Engineering%20•%20Full-Stack%20Developer&descAlignY=60"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img width="100%" src="./assets/hero-dark.svg" alt="Ukiyo-e style great wave at sunrise with the name Gustavo Hudson, Chief Technology Officer, and a red hanko seal. Every line is hand-tuned SVG.">
+</picture>
 
-<a href="https://lojasbelmont.com.br">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=720&lines=CTO+%40+Lojas+Belmont;I+turn+business+problems+into+production+software;15%2B+systems+designed%2C+built+and+delivered;AI+across+engineering%2C+marketing%2C+sales+and+ops;From+the+server+rack+to+the+boardroom" alt="Typing intro"/>
-</a>
+**CTO who builds.** I find the real business problem, ship the system that solves it,<br/>
+and keep it running in production — across retail, fintech and entertainment.
 
-<p>
-<a href="mailto:gustavohuds@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://linkedin.com/in/gustavohsn"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://lojasbelmont.com.br"><img src="https://img.shields.io/badge/Live%20in%20Production-lojasbelmont.com.br-0F172A?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
-<a href="https://github.com/GustavoHuds/Ttalk_bot_manager"><img src="https://img.shields.io/badge/Open%20Source-Ttalk%20Bot%20Manager-25D366?style=for-the-badge&logo=github&logoColor=white"/></a>
-</p>
+<sub>Engineering from the easternmost point of the Americas — where the sun rises first.</sub>
 
-<img src="https://img.shields.io/badge/📍%20João%20Pessoa%2C%20Brazil-1E293B?style=flat-square"/>
-<img src="https://img.shields.io/badge/🌎%20Remote%20%7C%20On--site-1E293B?style=flat-square"/>
-<img src="https://img.shields.io/badge/🗣️%20Portuguese%20%7C%20English-1E293B?style=flat-square"/>
-<img src="https://img.shields.io/badge/🤝%20Open%20to%20projects%20%26%20partnerships-16A34A?style=flat-square"/>
+<br/>
+
+<a href="mailto:gustavohuds@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-email-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/btn-email-light.svg"><img height="44" src="./assets/btn-email-dark.svg" alt="Email"></picture></a>
+<a href="https://linkedin.com/in/gustavohsn"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-linkedin-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/btn-linkedin-light.svg"><img height="44" src="./assets/btn-linkedin-dark.svg" alt="LinkedIn"></picture></a>
+<a href="https://lojasbelmont.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-live-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/btn-live-light.svg"><img height="44" src="./assets/btn-live-dark.svg" alt="Live in production: lojasbelmont.com.br"></picture></a>
+<a href="https://github.com/GustavoHuds/Ttalk_bot_manager"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-oss-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/btn-oss-light.svg"><img height="44" src="./assets/btn-oss-dark.svg" alt="Open source: Ttalk Bot Manager"></picture></a>
+
+<sub>📍 João Pessoa, Brazil &nbsp;·&nbsp; 🌎 Remote / On-site &nbsp;·&nbsp; 🗣️ Portuguese & English &nbsp;·&nbsp; 🤝 Open to projects & partnerships</sub>
 
 </div>
 
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"><img width="100%" src="./assets/divider-dark.svg" alt=""></picture>
 
-## 📈 Impact at a Glance
+## 一 · Impact
 
 <div align="center">
 
-| 🧩 **15+** | 🏬 **Multi-store** | 🧪 **2,000+** | 📦 **1,600+** | 🔥 **780+** |
+| 🧩 **15+** | 🏬 **8 stores** | 🧪 **2,000+** | 📦 **1,600+** | 🔥 **780+** |
 |:---:|:---:|:---:|:---:|:---:|
-| systems designed, built<br/>and delivered end to end | retail chain running daily<br/>on software I built | automated tests in a<br/>single platform (BELeads) | SKUs unified into one<br/>catalog by my data pipeline | GitHub contributions<br/>(public + private) |
+| systems designed, built<br/>and run in production | of a retail chain + a distribution<br/>center running on my software | automated tests in a<br/>single platform (BELeads) | SKUs unified into one<br/>catalog by my data pipeline | GitHub contributions<br/>(public + private) |
 
 </div>
 
----
+## 二 · About
 
-## 👨‍💻 About Me
+I'm the **CTO of Lojas Belmont**, a furniture and mattress retail chain in Paraíba, Brazil, and I own **everything technology**: strategy, architecture, code, infrastructure, security and support. When HR, sales, marketing, inventory or operations has a problem, I scope it, design it, ship it and keep it running.
+
+Beyond retail, I've shipped platforms for **fintech** and **entertainment** with the same standard: production-grade, documented, tested, monitored.
 
 ```ts
 const gustavo = {
-  role:      "CTO — Chief Technology Officer @ Lojas Belmont",
-  owns:      ["strategy", "architecture", "development", "infrastructure", "security", "support", "team tooling"],
-  mission:   "Find the real business problem. Ship the solution. Own the result in production.",
-  aiFirst:   ["engineering", "marketing", "design", "sales", "prospecting", "analytics", "data extraction", "integrations"],
-  shipsTo:   "production — with docs, tests, security gates, monitoring and backups",
+  role:     "CTO — Chief Technology Officer @ Lojas Belmont",
+  owns:     ["strategy", "architecture", "development", "infrastructure", "security", "support"],
+  mission:  "Find the real business problem. Ship the solution. Own the result in production.",
+  aiFirst:  ["engineering", "marketing", "sales", "prospecting", "analytics", "data extraction"],
+  shipsTo:  "production — with docs, tests, security gates, monitoring and backups",
 };
 ```
 
-I'm the **CTO of Lojas Belmont**, a furniture and mattress retail chain in João Pessoa (PB), Brazil, and I own **everything technology** in the company. When HR, sales, marketing, inventory, or operations has a problem, I scope it, design the architecture, write the code, deploy it, and keep it running.
-
-I don't use AI only to code. **I use it as an operating system for the business:**
+I don't use AI only to write code. **I run it as an operating system for the business:**
 
 | Area | How I apply AI |
 |------|----------------|
-| 🎨 **Marketing & Design** | AI product photography, campaign creatives, flyers, price posters, brand-consistent assets |
-| 🔍 **SEO & Content** | Local SEO/GEO, product copy, Search Console & Analytics reports, AI-search visibility |
-| 🎯 **Prospecting** | Google Maps lead collection, company enrichment, public-tender monitoring, AI-written outreach |
-| 📊 **Sales Analytics** | WhatsApp/Instagram lead extraction, conversion metrics, AI service scoring, weekly AI coaching per seller |
-| 📄 **Data Extraction** | Supplier PDFs, price tables and ERP reports turned into clean, consolidated datasets |
-| 🔗 **Integrations** | ERP, WhatsApp, Telegram, Google, PIX payments, third-party CRMs |
-| ⚖️ **Compliance** | Consumer-law (CDC) review of promotions, price and measurement checks before print |
 | 🧠 **Engineering** | Multi-agent workflows that plan, implement, review and test software behind production-grade gates |
+| 📊 **Sales Analytics** | Lead extraction from WhatsApp/Instagram, conversion metrics, AI service scoring, weekly AI coaching per seller |
+| 🎯 **Prospecting** | Google Maps lead collection, company enrichment, public-tender monitoring, AI-written outreach |
+| 📄 **Data & Integrations** | Supplier PDFs, price tables and ERP reports turned into clean datasets; ERP, WhatsApp, Telegram, PIX |
+| 🎨 **Marketing & Design** | AI product photography, campaign creatives, price posters, brand-consistent assets |
+| 🔍 **SEO & Compliance** | Local SEO/GEO and AI-search visibility; consumer-law (CDC) review of promotions before print |
 
----
+## 三 · Work by sector
 
-## 🎯 Current Focus
+> Every system below was **designed, built, deployed and operated by me**: requirements, architecture, code, infrastructure and documentation. Most are private company systems; **technical walkthroughs are available on request.**
 
-<div align="center">
-
-| 🧭 Technology Leadership | 🤖 AI Engineering & Agents | 🏢 ERP & Enterprise Systems |
-|:---:|:---:|:---:|
-| **📦 Inventory & WMS** | **🛒 Digital Sales & E-Commerce** | **📣 Marketing Technology & SEO** |
-| **🎨 Design & Visual Identity** | **⚙️ Process Automation** | **🔐 Secure-by-Design Infrastructure** |
-
-</div>
-
----
-
-## 🚀 Featured Projects
-
-> Every project below was **designed, built, deployed and operated by me**: requirements, architecture, code, infrastructure and documentation. Most are private company systems; **technical walkthroughs are available on request.**
-
-### ⭐ Flagship
+### <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/kamon-retail-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/kamon-retail-light.svg"><img width="30" align="top" src="./assets/kamon-retail-dark.svg" alt=""></picture> Retail · Lojas Belmont
 
 <table>
 <tr>
@@ -89,9 +83,9 @@ I don't use AI only to code. **I use it as an operating system for the business:
 #### ⏱️ BELPonto · `✅ Delivered`
 **Workforce & time-attendance compliance platform**
 
-Multi-company system with store kiosks, mobile PWA, geolocation, hours calculation, HR workflows, digital signatures, PDF reports, 2FA, and an immutable audit trail.
+Multi-company system with store kiosks, mobile PWA, geolocation, hours calculation, HR workflows, digital signatures, PDF reports, 2FA and an immutable audit trail.
 
-- 🏛️ 53 documented architecture decisions + 26 security requirements
+- 🏛️ 53 architecture decisions + 26 security requirements
 - 🔒 PostgreSQL **row-level security** per company
 - ⚙️ Async workers: outbox, daily seal, data retention
 
@@ -107,7 +101,7 @@ Collects companies from Google Maps by Brazilian municipality, deduplicates and 
 
 - 🧪 **2,000+ automated tests**, 5 CI gates (Gitleaks, Semgrep, Trivy, E2E)
 - 🤖 Claude-powered lead handling with human confirmation
-- 🏛️ Public-tender (licitações) monitoring + Telegram alerts
+- 🏛️ Public-tender monitoring + Telegram alerts
 
 `NestJS` `React` `pg-boss` `Prisma` `PostgreSQL` `Leaflet` `Claude`
 
@@ -119,7 +113,7 @@ Collects companies from Google Maps by Brazilian municipality, deduplicates and 
 #### 🌐 [Lojas Belmont Website](https://lojasbelmont.com.br) · `✅ Live`
 **Conversion-focused digital storefront**
 
-Product catalog, nearest-store routing, weekly promotions, admin panel, Google-review campaign, NPS surveys, and local SEO/GEO.
+Product catalog, nearest-store routing, weekly promotions, admin panel, Google-review campaign, NPS surveys and local SEO/GEO.
 
 - ⚡ **Lighthouse 94+**, optimized image pipeline
 - 📍 Local SEO across every store location
@@ -145,257 +139,166 @@ Extracts every lead from WhatsApp, Instagram DM and web chat, ranks the pipeline
 </tr>
 </table>
 
-### 🧰 More Delivered Work
+| Also in retail | What it does | Stack |
+|---|---|---|
+| 🏷️ **BELPreço** | Price-poster & shelf-label generator with brand templates and Code 128 barcodes. Any employee prints a correct poster in **under 1 minute**. | React · TS · Vite · Zustand |
+| 📚 **Catalog Data Pipeline** | Consolidates supplier price PDFs and ERP exports into a **1,600+ SKU** catalog with AI-assisted product imagery. | Python · PDF parsing · AI imaging |
+| 🧠 **BINAH** | Operational knowledge platform: documentation, troubleshooting, procedures and AI search. | React · AI Search |
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| 🏷️ **BELPreço** `✅` | Price-poster & shelf-label generator: brand templates, Code 128 barcodes, shared catalog, pixel-perfect A4 print. Any employee prints a correct poster in **under 1 minute**. | React · TS · Vite · Zustand |
-| 🛡️ **Belmont Monitor** `✅` | Private observability & security stack: uptime, resources, logs, intrusion detection, 2FA panels, daily backups, custom Telegram bot. Runs in **~420 MB RAM**. | Docker · Caddy · Authelia · CrowdSec · Python |
-| 💬 **[Ttalk Bot Manager](https://github.com/GustavoHuds/Ttalk_bot_manager)** `✅ OSS` | Self-hosted WhatsApp bots for small businesses (CV collection + group management) from one web panel. | TypeScript · Fastify · Baileys · SQLite |
-| 🧭 **Cockpit** `✅` | Local-first AI engineering cockpit: monitors Git repos, analyzes progress with Claude, forecasts delivery, executive dashboards. | Fastify · Next.js · Prisma · Recharts |
-| 📚 **Catalog Data Pipeline** `✅` | Consolidates supplier price PDFs and ERP exports into a **1,600+ SKU** catalog with AI-assisted product imagery. | Python · PDF parsing · AI imaging |
-| 🧠 **BINAH** `✅` | AI-powered operational knowledge platform: documentation, troubleshooting, procedures and intelligent search. | React · AI Search |
-| 💰 **NinjaCash** `✅` | Lending management platform: client portal, PIX payments, credit scoring, analytics, automated WhatsApp reminders. | Next.js · Express · PostgreSQL |
-| 🎁 **Txintxa do Gigi** `✅` | Influencer affiliate platform with raffles and live bingo, real-time draws, payment validation and analytics. | NestJS · React 19 · BullMQ · Socket.IO · R2 |
-| 📍 **MAPservice** `✅` | Service-management platform with WhatsApp messaging, campaigns, contact capture and anti-ban rate limiting. | FastAPI · Next.js · PostgreSQL |
-| 🔎 **Google Maps Scraper Kit** `✅` | Plug-and-play kit that lets an AI agent run Google Maps searches on autopilot and return clean lead lists. | Docker · Claude Skills |
-| 📶 **WifiLive** `✅` | Real-time Wi-Fi site-survey tool (RSSI, latency, interference) to find dead zones and the best AP placement. | Node.js · Networking |
+<details>
+<summary>🗺️ <b>Where this software runs</b> — interactive map of the stores</summary>
 
----
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [-34.8856, -7.1192] }, "properties": { "title": "Lojas Belmont · Centro", "description": "João Pessoa, PB", "marker-color": "#2563EB", "marker-symbol": "shop" } },
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [-34.8406, -7.1756] }, "properties": { "title": "Lojas Belmont + Belmont Colchões · Mangabeira", "description": "João Pessoa, PB · 2 units", "marker-color": "#2563EB", "marker-symbol": "shop" } },
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [-34.9115, -7.1923] }, "properties": { "title": "Belmont Distribuidora", "description": "Distrito Industrial, João Pessoa, PB · distribution center", "marker-color": "#B5122A", "marker-symbol": "warehouse" } },
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [-34.9146, -7.1225] }, "properties": { "title": "Lojas Belmont · Bayeux", "description": "Bayeux, PB", "marker-color": "#2563EB", "marker-symbol": "shop" } },
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [-35.3349, -7.3295] }, "properties": { "title": "Lojas Belmont · Itabaiana", "description": "Itabaiana, PB", "marker-color": "#2563EB", "marker-symbol": "shop" } },
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [-35.1229, -6.8369] }, "properties": { "title": "Lojas Belmont · Mamanguape", "description": "Mamanguape, PB", "marker-color": "#2563EB", "marker-symbol": "shop" } },
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [-35.1184, -7.4046] }, "properties": { "title": "Lojas Belmont · Itambé", "description": "Itambé, PE", "marker-color": "#2563EB", "marker-symbol": "shop" } },
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [-35.8913, -7.2156] }, "properties": { "title": "Belmont Colchões · Campina Grande", "description": "Campina Grande, PB", "marker-color": "#2563EB", "marker-symbol": "shop" } }
+  ]
+}
+```
 
-## 🧱 How I Ship
+<sub>Rendered natively by GitHub. Pins are approximate.</sub>
 
-<table>
-<tr>
-<td valign="top" width="33%">
+</details>
 
-**📐 Plan first**
-- Scope, requirements & acceptance criteria
-- Architecture decision records
-- Security requirements per system
-- Threat-aware data modeling
+### <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/kamon-fintech-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/kamon-fintech-light.svg"><img width="30" align="top" src="./assets/kamon-fintech-dark.svg" alt=""></picture> Fintech
 
-</td>
-<td valign="top" width="33%">
+| Project | What it does | Stack |
+|---|---|---|
+| 💰 **NinjaCash** | Lending management platform: client portal, PIX payments, credit scoring, analytics and automated WhatsApp reminders. | Next.js · Express · PostgreSQL |
 
-**🧪 Prove it works**
-- Unit, integration & E2E tests
-- Secret, SAST & container scanning
-- Code review on every change
-- Staged rollouts with rollback plans
+### <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/kamon-entertainment-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/kamon-entertainment-light.svg"><img width="30" align="top" src="./assets/kamon-entertainment-dark.svg" alt=""></picture> Entertainment
 
-</td>
-<td valign="top" width="33%">
+| Project | What it does | Stack |
+|---|---|---|
+| 🎁 **Txintxa do Gigi** | Influencer affiliate platform with raffles and live bingo: real-time draws, payment validation and analytics. | NestJS · React 19 · BullMQ · Socket.IO · R2 |
 
-**🛰️ Own it in production**
-- Monitoring, alerts & on-call bot
-- Automated backups + restore drills
-- Runbooks & user manuals
-- Hardened VPS, 2FA, reverse proxy
+### <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/kamon-platforms-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/kamon-platforms-light.svg"><img width="30" align="top" src="./assets/kamon-platforms-dark.svg" alt=""></picture> Platforms, infra & open source
 
-</td>
-</tr>
-</table>
+| Project | What it does | Stack |
+|---|---|---|
+| 🛡️ **Belmont Monitor** | Private observability & security stack: uptime, logs, intrusion detection, 2FA panels, daily backups, custom Telegram bot. Runs in **~420 MB RAM**. | Docker · Caddy · Authelia · CrowdSec · Python |
+| 💬 **[Ttalk Bot Manager](https://github.com/GustavoHuds/Ttalk_bot_manager)** `OSS` | Self-hosted WhatsApp bots for small businesses (CV collection + group management) from one web panel. | TypeScript · Fastify · Baileys · SQLite |
+| 🧭 **Cockpit** | Local-first AI engineering cockpit: monitors Git repos, analyzes progress with Claude, forecasts delivery. | Fastify · Next.js · Prisma · Recharts |
+| 📍 **MAPservice** | Service-management platform with WhatsApp messaging, campaigns, contact capture and anti-ban rate limiting. | FastAPI · Next.js · PostgreSQL |
+| 🔎 **Google Maps Scraper Kit** | Plug-and-play kit that lets an AI agent run Google Maps searches on autopilot and return clean lead lists. | Docker · Claude Skills |
+| 📶 **WifiLive** | Real-time Wi-Fi site-survey tool (RSSI, latency, interference) to find dead zones and the best AP placement. | Node.js · Networking |
 
----
+## 四 · How I ship
 
-## 🛠 Tech Stack
+| 段取り **Dandori** · *Preparation* | 検証 **Kenshō** · *Verification* | 改善 **Kaizen** · *Continuous improvement* |
+|---|---|---|
+| *"Preparation is 80% of the work."* Scope and acceptance criteria, architecture decision records, security requirements per system, threat-aware data modeling. | Unit, integration and E2E tests. Secret, SAST and container scanning. Code review on every change. Staged rollouts with rollback plans. | Monitoring, alerts and an on-call bot. Automated backups with restore drills. Runbooks and user manuals. Every incident makes the system stronger. |
 
-<div align="center">
+## 五 · Stack
 
-**Languages**<br/>
-<img src="https://skillicons.dev/icons?i=ts,js,python,java,go,html,css,bash,powershell"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
+  <img width="100%" src="./assets/stack-dark.svg" alt="Production stack. Core: TypeScript, Node.js, Python, Go, NestJS, Fastify, React, Next.js. Data: PostgreSQL, Prisma, Redis, SQLite. AI: Anthropic, Claude Agent SDK, MCP, OpenAI. Ops and security: Docker, Linux, Caddy, Authelia, CrowdSec, GitHub Actions, Trivy, Semgrep, Gitleaks. Integrations: WhatsApp, Telegram, PIX, Google Maps, ERP.">
+</picture>
 
-**Frontend**<br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind"/><br/>
-<img src="https://img.shields.io/badge/TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
-<img src="https://img.shields.io/badge/Zustand-443E38?style=flat-square&logo=react&logoColor=white"/>
-<img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white"/>
-<img src="https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white"/>
-<img src="https://img.shields.io/badge/Recharts-22B5BF?style=flat-square&logo=chartdotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white"/>
+<sub>Only what runs in production today. Everything else lives in the index below.</sub>
 
-**Backend**<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,fastapi,prisma"/><br/>
-<img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white"/>
-<img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white"/>
-<img src="https://img.shields.io/badge/BullMQ%20%2F%20pg--boss-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-<img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
-<img src="https://img.shields.io/badge/REST%20%7C%20SOAP%20%7C%20Webhooks-2563EB?style=flat-square&logo=openapiinitiative&logoColor=white"/>
+<details>
+<summary>📚 <b>Full expertise index</b></summary>
 
-**AI & LLM**<br/>
-<img src="https://img.shields.io/badge/Claude%20%2F%20Anthropic%20SDK-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
-<img src="https://img.shields.io/badge/Claude%20Agent%20SDK-D97757?style=flat-square&logo=claude&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenAI%20%2F%20ChatGPT-412991?style=flat-square&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/AI%20Agents%20%26%20MCP-0F172A?style=flat-square&logo=modelcontextprotocol&logoColor=white"/>
-<img src="https://img.shields.io/badge/Prompt%20Engineering-2563EB?style=flat-square&logo=googlegemini&logoColor=white"/>
-<img src="https://img.shields.io/badge/AI%20Image%20Generation-8B5CF6?style=flat-square&logo=midjourney&logoColor=white"/>
+<br/>
 
-**Databases & Storage**<br/>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,firebase"/><br/>
-<img src="https://img.shields.io/badge/MinIO%20%2F%20S3-C72E49?style=flat-square&logo=minio&logoColor=white"/>
-<img src="https://img.shields.io/badge/Cloudflare%20R2-F38020?style=flat-square&logo=cloudflare&logoColor=white"/>
+**Leadership & business** — CTO · IT governance · technology strategy & digital transformation · team leadership & mentoring · process mapping · requirements & product management · vendor & ERP relationships · IT budgeting · retail operations, sales & inventory
 
-**DevOps, Infrastructure & Security**<br/>
-<img src="https://skillicons.dev/icons?i=docker,linux,ubuntu,nginx,cloudflare,git,github,githubactions"/><br/>
-<img src="https://img.shields.io/badge/VPS-673DE6?style=flat-square&logo=hostinger&logoColor=white"/>
-<img src="https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Authelia%202FA-113155?style=flat-square&logo=authelia&logoColor=white"/>
-<img src="https://img.shields.io/badge/CrowdSec-F2A900?style=flat-square&logo=crowdsource&logoColor=black"/>
-<img src="https://img.shields.io/badge/Uptime%20Kuma-5CDD8B?style=flat-square&logo=uptimekuma&logoColor=black"/>
-<img src="https://img.shields.io/badge/Trivy%20%7C%20Semgrep%20%7C%20Gitleaks-1904DA?style=flat-square&logo=aqua&logoColor=white"/>
+**Software engineering** — full-stack · backend & REST/SOAP APIs · architecture & monorepos · multi-tenant systems & row-level security · queues & workers · real-time (WebSockets) · PWAs · automated testing · code review · technical writing · also: Java, Go (multi-agent systems)
 
-**Testing & Quality**<br/>
-<img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white"/>
-<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white"/>
-<img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white"/>
-<img src="https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black"/>
-<img src="https://img.shields.io/badge/Lighthouse-F44B21?style=flat-square&logo=lighthouse&logoColor=white"/>
+**AI** — LLM applications · agents & multi-agent workflows · AI-assisted development · structured outputs · AI for marketing, content and data extraction · AI sales analytics & coaching
 
-**Integrations & Messaging**<br/>
-<img src="https://img.shields.io/badge/WhatsApp%20(Baileys%20%7C%20Evolution)-25D366?style=flat-square&logo=whatsapp&logoColor=white"/>
-<img src="https://img.shields.io/badge/Telegram%20Bots-26A5E4?style=flat-square&logo=telegram&logoColor=white"/>
-<img src="https://img.shields.io/badge/PIX-32BCAD?style=flat-square&logo=pix&logoColor=white"/>
-<img src="https://img.shields.io/badge/Google%20Maps-4285F4?style=flat-square&logo=googlemaps&logoColor=white"/>
-<img src="https://img.shields.io/badge/Puppeteer%20%2F%20RPA-40B5A4?style=flat-square&logo=puppeteer&logoColor=white"/>
-<img src="https://img.shields.io/badge/ERP%20Integration-0F172A?style=flat-square&logo=sap&logoColor=white"/>
+**Integrations & automation** — ERP (API, SOAP, files & RPA) · WhatsApp & Telegram bots · PIX payments · scraping & enrichment · ETL pipelines · workflow automation
 
-**Marketing, Design & Analytics**<br/>
-<img src="https://skillicons.dev/icons?i=figma,ps,ai"/><br/>
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=flat-square&logo=canva&logoColor=white"/>
-<img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=flat-square&logo=googleanalytics&logoColor=white"/>
-<img src="https://img.shields.io/badge/Search%20Console-458CF5?style=flat-square&logo=googlesearchconsole&logoColor=white"/>
-<img src="https://img.shields.io/badge/Google%20Business%20Profile-4285F4?style=flat-square&logo=google&logoColor=white"/>
-<img src="https://img.shields.io/badge/Excel%20%2F%20Sheets-217346?style=flat-square&logo=googlesheets&logoColor=white"/>
+**Infrastructure & security** — Linux administration · VPS hardening · Docker · CI/CD · monitoring & alerting · backup, restore & DR · secure-by-design · 2FA & access control · intrusion detection · vulnerability & secret scanning · LGPD-aware data handling
 
-**Tools, Hardware & IoT**<br/>
-<img src="https://skillicons.dev/icons?i=vscode,windows,obsidian,postman,arduino,raspberrypi"/>
+**Networks & hardware** — LAN/WAN, TCP/IP, DNS, DHCP · Wi-Fi design & site surveys · VPN, firewalls & routing · kiosks, printers & barcode devices · IoT (Arduino, Raspberry Pi)
 
-</div>
+**Marketing & design** — marketing technology · SEO, local SEO & GEO · Analytics & Search Console · brand identity & design systems · UI/UX · lead generation
 
----
+</details>
 
-## 💼 Expertise
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-**🧭 Leadership & Business**
-- Chief Technology Officer (CTO)
-- IT Management & Technology Governance
-- Technology Strategy & Digital Transformation
-- Team Leadership & Tech Mentoring
-- Business Process Mapping & Optimization
-- Requirements, Scope & Product Management
-- Vendor, Supplier & ERP Relationship Management
-- IT Budgeting & Cost Optimization
-- Retail Operations, Sales & Inventory
-- Innovation Management
-
-**💻 Software Engineering**
-- Full-Stack Development
-- Backend Engineering & REST APIs
-- Software Architecture & Monorepos
-- Multi-Tenant Systems & Row-Level Security
-- Background Jobs, Queues & Workers
-- Real-Time Systems (WebSockets)
-- Progressive Web Apps (PWA)
-- Automated Testing (unit, integration, E2E)
-- Code Review & Engineering Standards
-- Technical Documentation
-
-**🤖 Artificial Intelligence**
-- LLM Applications & Integrations
-- AI Agents & Multi-Agent Workflows
-- AI-Assisted Software Development
-- Prompt Engineering & Structured Outputs
-- AI for Marketing, Design & Content
-- AI Data Extraction & Classification
-- AI Sales Analytics & Coaching
-
-</td>
-<td valign="top" width="50%">
-
-**🔗 Integrations & Automation**
-- ERP Integration (API, SOAP, files & RPA)
-- WhatsApp & Telegram Bots
-- Payment Integration (PIX)
-- Web Scraping & Data Enrichment
-- ETL & Data Pipelines
-- Workflow & Process Automation
-
-**🏗️ Infrastructure & DevOps**
-- Linux Server Administration
-- VPS Provisioning & Hardening
-- Docker & Docker Compose
-- CI/CD & Release Engineering
-- Monitoring, Logging & Alerting
-- Backup, Restore & Disaster Recovery
-
-**🔐 Security**
-- Secure-by-Design Development
-- Authentication, 2FA & Access Control
-- Intrusion Detection & Reverse Proxies
-- Vulnerability & Secret Scanning
-- LGPD-Aware Data Handling
-
-**🌐 Networks & Hardware**
-- Computer Networks (LAN/WAN, TCP/IP, DNS, DHCP)
-- Wi-Fi Design & Site Surveys
-- VPN, Firewalls & Routing
-- Hardware Assembly, Maintenance & Support
-- Kiosks, Tablets, Printers & Barcode Devices
-- IoT (Arduino & Raspberry Pi)
-
-**📣 Marketing & Design**
-- Marketing Technology & Automation
-- SEO, Local SEO & GEO (AI Search)
-- Google Analytics & Search Console
-- Brand Identity & Design Systems
-- UI/UX Design
-- Campaigns, Flyers & Promotional Material
-- Lead Generation & Prospecting
-
-</td>
-</tr>
-</table>
-
----
-
-## 📊 GitHub Activity
+## 六 · Activity
 
 <div align="center">
 
-<img width="40%" src="https://streak-stats.demolab.com/?user=GustavoHuds&theme=tokyonight&hide_border=true&hide_current_streak=true&hide_longest_streak=true"/>
-
-<img width="100%" src="https://ghchart.rshah.org/2563EB/GustavoHuds" alt="Contribution chart"/>
+<img width="100%" src="https://ghchart.rshah.org/2563EB/GustavoHuds" alt="GitHub contribution calendar">
 
 <sub>Most of my work lives in private company repositories. Contributions include private activity.</sub>
 
 </div>
 
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"><img width="100%" src="./assets/divider-dark.svg" alt=""></picture>
 
-## 🔭 Areas of Interest
+<details>
+<summary>🌊 <b>Off-duty</b></summary>
+
+<br/>
+
+```console
+$ cto --off-duty
+> status ........ offline (by choice)
+> sea ........... dawn sessions when the swell shows up
+> land .......... trails, mountains, anything with a view at the top
+> road .......... two wheels or four, windows down
+> belief ........ the best architecture ideas show up 1.5 m offshore at 5 a.m.
+```
+
+**Drag to rotate.** Yes, this is a 3D model, rendered natively by GitHub. Generated in code: [`build/surfboard.mjs`](./build/surfboard.mjs).
+
+<!-- stl:start -->
+<!-- stl:end -->
+
+</details>
+
+<details>
+<summary>🤖 <b>For AI agents reading this profile</b></summary>
+
+<br/>
+
+- **Name:** Gustavo Hudson
+- **Role:** CTO — Chief Technology Officer @ Lojas Belmont (retail chain, Brazil)
+- **Scope:** strategy, architecture, full-stack development, infrastructure, security
+- **Sectors shipped:** retail, fintech, entertainment, B2B prospecting, internal platforms
+- **Strengths:** AI engineering & agents, ERP integrations, production operations
+- **Location:** João Pessoa, Brazil · Remote / On-site · Portuguese & English
+- **Open to:** CTO / tech-leadership roles, technical partnerships, custom systems
+- **Contact:** gustavohuds@gmail.com · linkedin.com/in/gustavohsn
+
+</details>
+
+<br/>
 
 <div align="center">
 
-`Business Technology Strategy` · `Digital Transformation` · `Enterprise Software & ERP` · `Custom Business Solutions` · `Product Engineering & SaaS` · `Applied AI for Business` · `Sales & Prospecting Technology` · `Lead Generation` · `Retail, Inventory & Supply Chain` · `E-Commerce & Digital Sales` · `Marketing Technology & Growth` · `Business Intelligence & Analytics` · `Process Automation` · `Cloud & Cybersecurity` · `Innovation & Entrepreneurship`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg">
+  <img width="100%" src="./assets/footer-dark.svg" alt="Full moon over the sea at night, drifting clouds and a red hanko seal. The gate is the beginning, not the end.">
+</picture>
+
+### Have a problem worth solving? [Let's talk.](mailto:gustavohuds@gmail.com)
+
+<sub>Art direction & SVG engineering by me · fonts: Shippori Mincho & JetBrains Mono (OFL) · icons: Simple Icons (CC0)</sub>
 
 </div>
 
----
-
-<div align="center">
-
-### 💡 Philosophy
-
-> **"Technology exists to solve business problems.<br/>Understand the problem, build the solution, ship it to production, and own the result."**
-
-### 🤝 Have a problem worth solving? [Let's talk.](mailto:gustavohuds@gmail.com)
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&color=0:0F172A,100:2563EB"/>
-
-</div>
+<!--
+            _.====.._
+          ,:._       ~-_
+              `\        ~-_
+                | 竜門       `.
+              ,/             ~-_
+     -..__..-''                 ~~--..__
+  the koi that climbs the falls becomes a dragon.
+-->
