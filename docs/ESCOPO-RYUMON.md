@@ -13,7 +13,9 @@
 | 2026-10-26 | Pipeline de build (`npm run build`), fontes embutidas, validação (`npm run validate`) |
 | 2026-10-26 | Hero com onda **provisória** em código, divisor, botões, 4 kamon (em código, o asset F virou opcional), prancha da stack, rodapé |
 | 2026-10-26 | README reestruturado; mapa GeoJSON com as 8 lojas + distribuidora; prancha de surf 3D gerada em código (`build/surfboard.mjs`) |
-| — | Aguardando: imagens A–E da IA, marcos da carreira (Route), Worker ao vivo, calendário seigaiha |
+| 2026-10-27 | Imagens A–F vetorizadas (`npm run vectorize`): onda no hero, dragão no rodapé, kamon da IA, montanha no Off-duty, nuvens no painel. Mapa GeoJSON e prancha 3D **removidos** do README |
+| 2026-10-27 | Worker de telemetria em `live/` (`/telemetry.svg`, `/ingest`, `/health`) + script do VPS (`live/scripts/push_telemetry.py`), testado localmente |
+| — | Aguardando: deploy do Worker (login Cloudflare), mapa Kuma → sistemas, marcos da carreira (Route, usa a carpa C), calendário seigaiha |
 
 **Decisões tomadas:** stack curada com ~30 itens só de produção (Go entra no Core; Java vai para o índice); ERP com glifo neutro; carimbo em katakana グスタボ (pendente revisão nativa); a seção Route entra quando os marcos chegarem, e a numeração das seções é ajustada nessa hora.
 

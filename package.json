@@ -5,7 +5,8 @@
   "description": "RYUMON — build pipeline for the GitHub profile README art",
   "scripts": {
     "fonts:fetch": "node build/fetch-fonts.mjs",
-    "build": "node build/build.mjs",
+    "vectorize": "python build/vectorize.py",
+    "build": "node build/build.mjs && node build/live-art.mjs",
     "validate": "node build/validate.mjs",
     "preview": "python build/preview.py"
   },

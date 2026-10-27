@@ -4,7 +4,7 @@ import { optimize } from 'svgo';
 import { THEMES } from './lib.mjs';
 import svgoConfig from './svgo.config.mjs';
 
-const PIECES = ['hero', 'divider', 'buttons', 'kamon', 'stack', 'footer'];
+const PIECES = ['hero', 'divider', 'buttons', 'kamon', 'stack', 'offduty', 'footer'];
 const only = process.argv.slice(2);
 const out = new URL('../assets/', import.meta.url);
 mkdirSync(out, { recursive: true });

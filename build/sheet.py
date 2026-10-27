@@ -24,6 +24,7 @@ with sync_playwright() as p:
         {img('divider', theme, 1000)}
         <div>{''.join(img(f'kamon-{k}', theme, 48) for k in ['retail','fintech','entertainment','platforms'])}</div>
         {img('stack', theme, 1000)}
+        {img('offduty', theme, 1000)}
         {img('footer', theme, 1000)}
         </body></html>"""
         f = out / f"_sheet-{theme}.html"; f.write_text(html, encoding="utf-8")

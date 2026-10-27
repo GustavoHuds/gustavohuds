@@ -1,0 +1,14 @@
+{
+  "name": "ryumon-live",
+  "private": true,
+  "type": "module",
+  "description": "RYŪMON live service: telemetry panel for the GitHub profile (Cloudflare Worker)",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

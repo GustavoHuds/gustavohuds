@@ -2,3 +2,7 @@ node_modules/
 # fontes completas são grandes; baixar com `npm run fonts:fetch`
 assets/src/fonts/*.ttf
 .cache/
+
+# wrangler (estado local do dev)
+.wrangler/
+.dev.vars

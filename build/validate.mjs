@@ -2,7 +2,7 @@
 import { readdirSync, readFileSync, statSync } from 'node:fs';
 
 const dir = new URL('../assets/', import.meta.url);
-const BUDGET_KB = { hero: 350, route: 350, footer: 150, stack: 120, divider: 8, btn: 4, kamon: 10 };
+const BUDGET_KB = { hero: 350, route: 350, footer: 150, offduty: 200, stack: 120, divider: 8, btn: 4, kamon: 10 };
 const errors = [];
 const svgs = readdirSync(dir).filter((f) => f.endsWith('.svg'));
 

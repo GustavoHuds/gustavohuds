@@ -227,6 +227,35 @@ export function kumo({ x, y, w, theme, cls = '', style = '' }) {
   </g>`;
 }
 
+// ── Arte vetorizada (assets/src/vector, gerada por build/vectorize.py) ────────
+const VECTOR_DIR = `${ROOT}assets/src/vector/`;
+
+/** Lê um SVG do vtracer: tamanho e paths (cada um com seu translate). */
+export function vector(name) {
+  const file = `${VECTOR_DIR}${name}.svg`;
+  if (!existsSync(file)) throw new Error(`Arte ausente: ${name}.svg. Rode: python build/vectorize.py`);
+  const src = readFileSync(file, 'utf8');
+  const [, w, h] = src.match(/width="([\d.]+)" height="([\d.]+)"/);
+  const paths = [...src.matchAll(/<path d="([^"]+)"[^>]*?(?:transform="translate\(([-\d.]+),([-\d.]+)\)")?\s*\/>/g)]
+    .map(([, d, tx = 0, ty = 0]) => ({ d: d.trim(), tx: +tx, ty: +ty }));
+  return { w: +w, h: +h, paths };
+}
+
+/**
+ * Coloca uma arte vetorizada em (x, y) com largura `w` (ou altura `h`),
+ * pintada com `fill`. A tinta vira cor do tema; o branco fica transparente.
+ */
+export function art(name, { x = 0, y = 0, w, h, fill, cls = '', style = '', flip = false }) {
+  const v = vector(name);
+  const s = w ? w / v.w : h / v.h;
+  const flipT = flip ? ` translate(${r(v.w * s)},0) scale(-1,1)` : '';
+  const body = v.paths.map(({ d, tx, ty }) =>
+    `<path${tx || ty ? ` transform="translate(${r(tx)},${r(ty)})"` : ''} d="${d}"/>`).join('');
+  // o grupo animado fica por fora: transform via CSS substituiria o atributo
+  const g = `<g transform="translate(${r(x)},${r(y)})${flipT} scale(${+s.toFixed(5)})" fill="${fill}">${body}</g>`;
+  return cls || style ? `<g${cls ? ` class="${cls}"` : ''}${style ? ` ${style}` : ''}>${g}</g>` : g;
+}
+
 export const svgOpen = (w, h, title, desc) =>
   `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-labelledby="t d">`
   + `<title id="t">${esc(title)}</title><desc id="d">${esc(desc)}</desc>`;
