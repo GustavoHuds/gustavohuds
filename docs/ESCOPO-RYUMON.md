@@ -272,7 +272,7 @@ O texto do Markdown usa a fonte do GitHub, que não dá para trocar. Dentro dos 
 --  Escondidos ........... haiku e arte ASCII em comentários HTML
 ```
 
-Os números das seções usam numerais japoneses (一 二 三 四 五 六 七), que são corretos e discretos.
+Os números das seções usam os **numerais formais** japoneses (壱 弐 参 肆 伍 陸, *daiji*, os usados em documentos oficiais). Os simples (一 二 三) foram testados e descartados: na fonte do GitHub parecem traços (—, =, ≡).
 
 ### 6.1 Seção por seção
 

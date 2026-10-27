@@ -74,6 +74,6 @@ writeFileSync(new URL('../models/surfboard.stl', import.meta.url), stl);
 
 const readme = new URL('../README.md', import.meta.url);
 const md = readFileSync(readme, 'utf8');
-const re = /(<!-- stl:start -->\n)[\s\S]*?(<!-- stl:end -->)/;
+const re = /(<!-- stl:start -->\r?\n)[\s\S]*?(<!-- stl:end -->)/;
 if (re.test(md)) writeFileSync(readme, md.replace(re, `$1\n\`\`\`stl\n${stl}\`\`\`\n\n$2`));
 console.log(`surfboard: ${tris.length} facets, ${(stl.length / 1024).toFixed(0)} KB${re.test(md) ? ', injected into README' : ''}`);
