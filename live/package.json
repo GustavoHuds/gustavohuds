@@ -2,7 +2,7 @@
   "name": "ryumon-live",
   "private": true,
   "type": "module",
-  "description": "RYŪMON live: telemetry panel for the GitHub profile, read from a local Uptime Kuma",
+  "description": "RYŪMON live: telemetry panel for the GitHub profile, read from the monitor-bot (SQLite, read-only) or a local Uptime Kuma",
   "engines": { "node": ">=22" },
   "scripts": {
     "start": "node src/server.js",

@@ -1,5 +1,5 @@
-# RYŪMON live: sobe ao lado do Uptime Kuma, na mesma rede Docker.
-# Nenhuma porta é publicada no host: o Caddy (na mesma rede) faz o proxy.
+# RYŪMON live. Nenhuma porta é publicada no host: o proxy (Caddy ou Traefik), na
+# mesma rede Docker, faz o proxy. Com SOURCE=bot o deploy.sh soma o compose.bot.yml.
 services:
   ryumon-live:
     build: .
@@ -34,7 +34,7 @@ services:
 networks:
   monitor:
     external: true
-    name: ${MONITOR_NETWORK:?defina MONITOR_NETWORK no .env (rede Docker onde o Kuma e o Caddy estão)}
+    name: ${MONITOR_NETWORK:?defina MONITOR_NETWORK no .env (rede Docker do proxy, e do Kuma se SOURCE=kuma)}
 
 volumes:
   ryumon-data:

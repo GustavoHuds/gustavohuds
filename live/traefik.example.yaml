@@ -1,0 +1,41 @@
+# Rota para o Traefik (ex.: Coolify: /data/coolify/proxy/dynamic/ryumon-live.yaml). Troque o domínio.
+# Só GET/HEAD /telemetry.svg é público; /health e /ingest ficam fora do roteador.
+# Sem forward_auth: o camo do GitHub busca a imagem sem login.
+http:
+  routers:
+    ryumon-live-http:
+      entryPoints: [http]
+      rule: "Host(`telemetry.seudominio.com.br`)"
+      middlewares: [ryumon-live-https]
+      service: ryumon-live
+    ryumon-live:
+      entryPoints: [https]
+      rule: "Host(`telemetry.seudominio.com.br`) && Path(`/telemetry.svg`) && (Method(`GET`) || Method(`HEAD`))"
+      middlewares: [ryumon-live-ratelimit, ryumon-live-headers]
+      service: ryumon-live
+      tls:
+        certResolver: letsencrypt
+  middlewares:
+    ryumon-live-https:
+      redirectScheme:
+        scheme: https
+        permanent: true
+    # O SVG é barato, mas é público: o limite por IP impede que alguém o use para gastar CPU.
+    ryumon-live-ratelimit:
+      rateLimit:
+        average: 30
+        period: 1m
+        burst: 30
+    ryumon-live-headers:
+      headers:
+        stsSeconds: 31536000
+        contentTypeNosniff: true
+        referrerPolicy: no-referrer
+        customResponseHeaders:
+          Server: ""
+          X-Powered-By: ""
+  services:
+    ryumon-live:
+      loadBalancer:
+        servers:
+          - url: "http://ryumon-live:8080"

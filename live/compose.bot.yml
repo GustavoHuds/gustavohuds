@@ -1,0 +1,11 @@
+# Fonte monitor-bot (SOURCE=bot): monta a pasta de dados do bot SÓ LEITURA em /bot.
+# O deploy.sh inclui este arquivo sozinho quando SOURCE=bot; não precisa passar -f.
+services:
+  ryumon-live:
+    volumes:
+      - type: bind
+        source: ${BOT_DATA_DIR:?defina BOT_DATA_DIR no .env (pasta do volume de dados do monitor-bot)}
+        target: /bot
+        read_only: true
+        bind:
+          create_host_path: false

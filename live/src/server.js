@@ -1,5 +1,5 @@
 // Ponto de entrada do serviço: valida a configuração, abre o histórico,
-// começa a ler o Kuma e serve o painel. Encerra limpo com SIGTERM (docker stop).
+// começa a ler a fonte (monitor-bot ou Kuma) e serve o painel. Encerra limpo com SIGTERM (docker stop).
 import { createServer } from 'node:http';
 import { loadConfig, ConfigError } from './config.js';
 import { History } from './history.js';
@@ -24,7 +24,7 @@ server.maxRequestsPerSocket = 100;
 const stopPoller = startPoller({ config, history });
 server.listen(config.port, () => {
   console.log(JSON.stringify({
-    level: 'info', msg: 'ryumon-live up', port: config.port, systems: config.monitors.length,
+    level: 'info', msg: 'ryumon-live up', source: config.source, port: config.port, systems: config.monitors.length,
     ingest: Boolean(config.ingestToken), pollSeconds: config.pollSeconds,
   }));
 });

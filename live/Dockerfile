@@ -1,7 +1,8 @@
 # RYŪMON live: imagem mínima, sem dependências de npm, rodando como usuário sem privilégio.
 FROM node:22-alpine
 
-ENV NODE_ENV=production PORT=8080 DATA_DIR=/data
+# node:sqlite (leitura do monitor-bot) ainda é marcado experimental no Node 22: o aviso só polui o log
+ENV NODE_ENV=production PORT=8080 DATA_DIR=/data NODE_OPTIONS=--disable-warning=ExperimentalWarning
 WORKDIR /app
 
 # /data pertence ao usuário "node": o volume nomeado herda essa permissão na criação

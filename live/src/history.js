@@ -32,7 +32,15 @@ export class History {
     for (const key of Object.keys(s.days)) if (key < cut) delete s.days[key];
   }
 
-  /** Sistema sumiu do Kuma ou está "pending": mantém o histórico, sem status atual. */
+  /**
+   * Substitui o sistema inteiro por dados já agregados na fonte (o monitor-bot
+   * guarda 35 dias de checagens, então o uptime sai certo desde o primeiro poll).
+   */
+  replace(name, { status, latency, days }) {
+    this.state.systems[name] = { days: { ...days }, latency: latency.slice(-KEEP_LATENCY), status };
+  }
+
+  /** Sistema sumiu da fonte ou está "pending": mantém o histórico, sem status atual. */
   unknown(name) {
     const s = this.state.systems[name];
     if (s) s.status = null;

@@ -15,6 +15,7 @@
 | 2026-10-26 | README reestruturado; mapa GeoJSON com as 8 lojas + distribuidora; prancha de surf 3D gerada em código (`build/surfboard.mjs`) |
 | 2026-10-27 | Imagens A–F vetorizadas (`npm run vectorize`): onda no hero, dragão no rodapé, kamon da IA, montanha no Off-duty, nuvens no painel. Mapa GeoJSON e prancha 3D **removidos** do README |
 | 2026-10-27 | Telemetria **no próprio VPS** (`live/`): serviço Docker que lê o `/metrics` do Uptime Kuma pela rede interna e serve `/telemetry.svg`; substitui o Worker do Cloudflare (§11). Instalação: `live/README.md` |
+| 2026-10-27 | `live/` passa a ler o **monitor-bot** (`SOURCE=bot`): o SQLite do bot de Telegram, montado só leitura. O painel mostra os mesmos status do Telegram e 30 dias de uptime desde o primeiro minuto. O Kuma segue como fonte alternativa (`SOURCE=kuma`). Proxy: Traefik do Coolify (`live/traefik.example.yaml`) |
 | 2026-10-27 | Activity em seigaiha (`build/activity.mjs` + Action diária no branch `output`), no lugar do ghchart. CI de validação (`validate.yml`) |
 | 2026-10-27 | Revisão sênior do README: menos emoji e repetição, sem "For AI agents" nem índice de palavras-chave, crédito honesto da arte (IA + pipeline), monogramas no lugar dos glifos genéricos da stack |
 | — | Aguardando: deploy no VPS + domínio do painel (`npm run telemetry -- https://…`), marcos da carreira (Route, usa a carpa C), revisão nativa do japonês |

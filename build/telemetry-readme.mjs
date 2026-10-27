@@ -29,7 +29,7 @@ if (arg !== '--off') {
     if (res.status !== 200 || !type.startsWith('image/svg+xml')) fail(`${url}: HTTP ${res.status} ${type}`);
     if (!/no-cache/.test(res.headers.get('cache-control') ?? '')) fail(`${url}: sem cache-control no-cache (o Caddy está reescrevendo?)`);
     const body = await res.text();
-    if (/NO SIGNAL|waiting for the first signal/.test(body)) console.warn(`! ${theme}: o painel responde, mas ainda sem dados do Kuma`);
+    if (/NO SIGNAL|waiting for the first signal/.test(body)) console.warn(`! ${theme}: o painel responde, mas ainda sem dados da fonte (monitor-bot ou Kuma)`);
     console.log(`✓ ${url}`);
   }
   block = `

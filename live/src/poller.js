@@ -1,6 +1,7 @@
-// Lê o Kuma em intervalo fixo e alimenta o histórico.
+// Lê a fonte (monitor-bot ou Uptime Kuma) em intervalo fixo e alimenta o histórico.
 // Falha de leitura não apaga nada: o painel só vira "no signal" depois de 15 min.
 import { fetchMetrics } from './kuma.js';
+import { readBot, FRESH_MS } from './bot.js';
 
 /** Status do Kuma (0–3) + latência → status público, ou null se ainda não sabemos. */
 export function toStatus(code, responseMs, slowMs) {
@@ -10,17 +11,41 @@ export function toStatus(code, responseMs, slowMs) {
   return null;                 // 2 = pending
 }
 
-export async function pollOnce({ config, history, now = Date.now(), fetchImpl }) {
+async function pollKuma({ config, history, now, fetchImpl }) {
   const metrics = await fetchMetrics(config, { fetchImpl });
   let seen = 0;
-  for (const { kuma, name } of config.monitors) {
-    const m = metrics.get(kuma);
+  for (const { key, name } of config.monitors) {
+    const m = metrics.get(key);
     const status = m ? toStatus(m.status, m.responseMs, config.slowMs) : null;
     if (status) { history.record(name, status, m.responseMs, now); seen++; } else history.unknown(name);
   }
+  return { seen, missing: config.monitors.filter((m) => !metrics.has(m.key)).map((m) => m.key) };
+}
+
+function pollBot({ config, history, now }) {
+  const { lastCheck, systems } = readBot(config.botDb, config.monitors.map((m) => m.key), { now });
+  // Bot parado: não renova o lastPoll, e o painel cai para "no signal" sozinho.
+  if (lastCheck == null) throw new Error('monitor-bot ainda não registrou nenhuma checagem');
+  if (now - lastCheck > FRESH_MS) throw new Error(`monitor-bot sem checagens há ${Math.round((now - lastCheck) / 60e3)} min`);
+  let seen = 0;
+  for (const { key, name } of config.monitors) {
+    const s = systems.get(key);
+    if (!s) { history.unknown(name); continue; }
+    const last = s.latency.at(-1);
+    const status = s.down ? 'down' : last > config.slowMs ? 'degraded' : 'up';
+    history.replace(name, { status, latency: s.latency, days: s.days });
+    seen++;
+  }
+  return { seen, missing: config.monitors.filter((m) => !systems.has(m.key)).map((m) => m.key) };
+}
+
+export async function pollOnce({ config, history, now = Date.now(), fetchImpl }) {
+  const r = config.source === 'bot'
+    ? pollBot({ config, history, now })
+    : await pollKuma({ config, history, now, fetchImpl });
   history.markPoll(now);
   history.save();
-  return { seen, total: config.monitors.length, missing: config.monitors.filter((m) => !metrics.has(m.kuma)).map((m) => m.kuma) };
+  return { ...r, total: config.monitors.length };
 }
 
 export function startPoller({ config, history, log = console }) {

@@ -37,7 +37,7 @@ const fakeFetch = (text = METRICS, status = 200) => async (url, opts) => {
 test('config válida', () => {
   const c = loadConfig({ ...ENV, DATA_DIR: '/tmp/x' });
   assert.deepEqual(c.monitors.map((m) => m.name), ['BELeads', 'BELPonto', 'Website']);
-  assert.equal(c.monitors[1].kuma, 'ponto "web"');
+  assert.equal(c.monitors[1].key, 'ponto "web"');
   assert.equal(c.pollSeconds, 60);
 });
 
@@ -58,7 +58,7 @@ test('config inválida falha com mensagem clara', () => {
 
 test('parseMonitors: o primeiro "=" separa; acentos e espaços no nome público', () => {
   assert.deepEqual(parseMonitors(' site  prod =BELPreço; ;txintxa=Txintxa do Gigi'), [
-    { kuma: 'site  prod', name: 'BELPreço' }, { kuma: 'txintxa', name: 'Txintxa do Gigi' },
+    { key: 'site  prod', name: 'BELPreço' }, { key: 'txintxa', name: 'Txintxa do Gigi' },
   ]);
   assert.throws(() => parseMonitors('api=v2=API'), ConfigError);
 });
