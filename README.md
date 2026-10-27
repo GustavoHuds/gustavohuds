@@ -31,7 +31,13 @@ and keep it running in production, across retail, fintech and entertainment.
 
 ## 壱 · In production
 
-<!-- telemetry:start --><!-- telemetry:end -->
+<!-- telemetry:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://telemetry.72-60-241-1.sslip.io/telemetry.svg?theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://telemetry.72-60-241-1.sslip.io/telemetry.svg?theme=light">
+  <img width="100%" src="https://telemetry.72-60-241-1.sslip.io/telemetry.svg?theme=dark" alt="Live production telemetry: status, 30-day uptime and latency of the systems I run, read from production monitoring.">
+</picture>
+<!-- telemetry:end -->
 
 <div align="center">
 
