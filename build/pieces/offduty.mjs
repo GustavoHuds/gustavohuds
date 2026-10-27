@@ -16,9 +16,12 @@ export function render(T) {
   <linearGradient id="osky" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0" stop-color="${T.skyTop}"/><stop offset="1" stop-color="${T.skyHorizon}"/>
   </linearGradient>
+  <clipPath id="card"><rect width="${W}" height="${H}" rx="14"/></clipPath>
 </defs>
-<rect width="${W}" height="${H}" rx="14" fill="url(#osky)"/>
+<g clip-path="url(#card)">
+<rect width="${W}" height="${H}" fill="url(#osky)"/>
 <circle class="rise" ${at(1.4, 1.6, '--dy:30px')} cx="1010" cy="92" r="30" fill="${T.shu}" fill-opacity=".85"/>
 ${art('mountain', { x: 0, y: H - h - 6, w: W, fill: T.ink, cls: 'climb' })}
+</g>
 </svg>`;
 }

@@ -1,0 +1,24 @@
+# Bloco para o Caddyfile do monitor. Troque o domínio.
+# IMPORTANTE: este site NÃO pode ficar atrás do Authelia (forward_auth):
+# o GitHub busca a imagem sem login. Só o /telemetry.svg fica público.
+telemetry.seudominio.com.br {
+	encode gzip
+
+	handle /telemetry.svg {
+		reverse_proxy ryumon-live:8080
+	}
+
+	# Opcional: só se usar o passo de CI (INGEST_TOKEN definido no .env)
+	# handle /ingest {
+	# 	reverse_proxy ryumon-live:8080
+	# }
+
+	handle {
+		respond 404
+	}
+
+	header {
+		-Server
+		Referrer-Policy no-referrer
+	}
+}

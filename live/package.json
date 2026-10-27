@@ -2,13 +2,11 @@
   "name": "ryumon-live",
   "private": true,
   "type": "module",
-  "description": "RYŪMON live service: telemetry panel for the GitHub profile (Cloudflare Worker)",
+  "description": "RYŪMON live: telemetry panel for the GitHub profile, read from a local Uptime Kuma",
+  "engines": { "node": ">=22" },
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
+    "start": "node src/server.js",
+    "check": "node src/check.js",
     "test": "node --test"
-  },
-  "devDependencies": {
-    "wrangler": "^4.0.0"
   }
 }

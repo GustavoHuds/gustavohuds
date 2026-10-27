@@ -6,9 +6,12 @@
   "scripts": {
     "fonts:fetch": "node build/fetch-fonts.mjs",
     "vectorize": "python build/vectorize.py",
-    "build": "node build/build.mjs && node build/live-art.mjs",
+    "build": "node build/build.mjs",
     "validate": "node build/validate.mjs",
-    "preview": "python build/preview.py"
+    "activity": "node build/activity.mjs",
+    "telemetry": "node build/telemetry-readme.mjs",
+    "preview": "python build/preview.py",
+    "test": "node --test \"live/test/*.test.js\""
   },
   "devDependencies": {
     "simple-icons": "^16.36.0",

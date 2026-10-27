@@ -1,0 +1,40 @@
+# RYŪMON live: sobe ao lado do Uptime Kuma, na mesma rede Docker.
+# Nenhuma porta é publicada no host: o Caddy (na mesma rede) faz o proxy.
+services:
+  ryumon-live:
+    build: .
+    image: ryumon-live:local
+    container_name: ryumon-live
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      PORT: "8080"
+      DATA_DIR: /data
+    volumes:
+      - ryumon-data:/data
+    networks:
+      - monitor
+    # endurecimento: sistema de arquivos só leitura, sem capacidades, recursos limitados
+    read_only: true
+    tmpfs:
+      - /tmp:size=8m
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    mem_limit: 96m
+    cpus: 0.25
+    pids_limit: 64
+    logging:
+      driver: json-file
+      options:
+        max-size: "1m"
+        max-file: "3"
+
+networks:
+  monitor:
+    external: true
+    name: ${MONITOR_NETWORK:?defina MONITOR_NETWORK no .env (rede Docker onde o Kuma e o Caddy estão)}
+
+volumes:
+  ryumon-data:

@@ -1,0 +1,26 @@
+# Em todo push e PR: orçamentos e sanidade dos SVGs + testes do serviço ao vivo.
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: SVG budgets, pairs, alt text, references
+        run: node build/validate.mjs
+      - name: Live service tests
+        run: node --test "live/test/*.test.js"
+      - name: Deploy script syntax
+        run: bash -n live/deploy.sh

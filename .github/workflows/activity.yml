@@ -1,0 +1,39 @@
+# Redesenha o calendário de contribuições (seigaiha) todo dia e publica no
+# branch `output`, que guarda só os SVGs gerados (um único commit, sem histórico).
+name: activity
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # 06:00 em João Pessoa
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: activity
+  cancel-in-progress: true
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Draw activity-{dark,light}.svg
+        run: node build/activity.mjs dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish to the output branch
+        working-directory: dist
+        run: |
+          git init -q -b output
+          git add activity-dark.svg activity-light.svg
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -q -m "activity: $(date -u +%F)"
+          git push -q -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

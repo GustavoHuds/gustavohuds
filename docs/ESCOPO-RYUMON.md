@@ -14,8 +14,10 @@
 | 2026-10-26 | Hero com onda **provisória** em código, divisor, botões, 4 kamon (em código, o asset F virou opcional), prancha da stack, rodapé |
 | 2026-10-26 | README reestruturado; mapa GeoJSON com as 8 lojas + distribuidora; prancha de surf 3D gerada em código (`build/surfboard.mjs`) |
 | 2026-10-27 | Imagens A–F vetorizadas (`npm run vectorize`): onda no hero, dragão no rodapé, kamon da IA, montanha no Off-duty, nuvens no painel. Mapa GeoJSON e prancha 3D **removidos** do README |
-| 2026-10-27 | Worker de telemetria em `live/` (`/telemetry.svg`, `/ingest`, `/health`) + script do VPS (`live/scripts/push_telemetry.py`), testado localmente |
-| — | Aguardando: deploy do Worker (login Cloudflare), mapa Kuma → sistemas, marcos da carreira (Route, usa a carpa C), calendário seigaiha |
+| 2026-10-27 | Telemetria **no próprio VPS** (`live/`): serviço Docker que lê o `/metrics` do Uptime Kuma pela rede interna e serve `/telemetry.svg`; substitui o Worker do Cloudflare (§11). Instalação: `live/README.md` |
+| 2026-10-27 | Activity em seigaiha (`build/activity.mjs` + Action diária no branch `output`), no lugar do ghchart. CI de validação (`validate.yml`) |
+| 2026-10-27 | Revisão sênior do README: menos emoji e repetição, sem "For AI agents" nem índice de palavras-chave, crédito honesto da arte (IA + pipeline), monogramas no lugar dos glifos genéricos da stack |
+| — | Aguardando: deploy no VPS + domínio do painel (`npm run telemetry -- https://…`), marcos da carreira (Route, usa a carpa C), revisão nativa do japonês |
 
 **Decisões tomadas:** stack curada com ~30 itens só de produção (Go entra no Core; Java vai para o índice); ERP com glifo neutro; carimbo em katakana グスタボ (pendente revisão nativa); a seção Route entra quando os marcos chegarem, e a numeração das seções é ajustada nessa hora.
 
@@ -764,6 +766,8 @@ URL de uso: `https://raw.githubusercontent.com/GustavoHuds/gustavohuds/output/ac
 ---
 
 ## 11. Serviço ao vivo (Cloudflare Worker)
+
+> **Atualização 2026-10-27:** a implementação final roda **no VPS**, ao lado do Uptime Kuma (`live/`). O serviço lê o Kuma direto pela rede Docker; não há conta externa, cron, KV nem push do VPS. O resto desta seção fica como registro do desenho original. Contrato atual: `live/README.md`.
 
 ### 11.1 Por que Worker (e não o VPS)
 

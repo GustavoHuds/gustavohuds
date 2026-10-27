@@ -23,3 +23,6 @@ for (const name of PIECES) {
     }
   }
 }
+
+// o painel ao vivo embute as nuvens: regera junto com o build completo
+if (!only.length) await import('./live-art.mjs');

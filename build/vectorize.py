@@ -16,11 +16,10 @@ SRC, OUT = ROOT / "assets/src/ai", ROOT / "assets/src/vector"
 # id → (arquivo, largura de trabalho, grade (colunas, linhas) ou None, nomes das células)
 JOBS = {
     "wave": ("A-hero-wave.png", 1800, None, None),
-    "dragon": ("B-dragon.png", 1600, None, None),
     "dragon-sm": ("B-dragon.png", 760, None, None),  # rodapé: aparece com ~480 px
-    "koi": ("C-koi-waterfall.png", 900, None, None),
+    "koi": ("C-koi-waterfall.png", 900, None, None),  # reservado para a seção Route
     "clouds": ("D-clouds-set.png", 1536, (2, 3), ["c1", "c2", "c3", "c4", "c5", "c6"]),
-    "mountain": ("E-mountain-trail.png", 1400, None, None),
+    "mountain": ("E-mountain-trail.png", 1800, None, None),
     "kamon": ("F-kamon-set.png", 640, (2, 2), ["retail", "fintech", "entertainment", "platforms"]),
 }
 

@@ -6,3 +6,9 @@ assets/src/fonts/*.ttf
 # wrangler (estado local do dev)
 .wrangler/
 .dev.vars
+
+# segredos do serviço ao vivo
+.env
+!.env.example
+# saída local do activity
+dist/
