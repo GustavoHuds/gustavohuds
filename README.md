@@ -229,5 +229,5 @@ $ cto --off-duty
                 | 竜門       `.
               ,/             ~-_
      -..__..-''                 ~~--..__
-  the koi that climbs the falls becomes a dragon.
+  Se você chegou aqui, vamos nos dar bem. gustavohuds@gmail.com
 -->
